@@ -1,6 +1,4 @@
 # Weak-password
-## xxl-job-weak-password
-
 ## 安装
 
 ```
@@ -11,16 +9,38 @@ cd xxl-job-weak-password
 ## 使用
 
 因为本工具是由了pocsuite3框架的开发规范编写的poc
+
 在使用前请下载pocsuite3
+
 项目地址
-https://github.com/knownsec/pocsuite3环境
-Python 3.7+
-Works on Linux, Windows, Mac OSX, BSD, etc.pip安装
-pip3 install pocsuite3
-# use other pypi mirror
-pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple pocsuite3poc
-pocsuite -r pocs/xxl-job_weak_passwd.py -f xxl-job.txt
+
 ```
+https://github.com/knownsec/pocsuite3
+```
+
+环境
+
+```
+Python 3.7+
+Works on Linux, Windows, Mac OSX, BSD, etc.
+```
+
+pip安装
+
+```
+pip3 install pocsuite3
+
+# use other pypi mirror
+pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple pocsuite3
+```
+
+poc
+
+```
+pocsuite -r pocs/xxl-job-weak-password.py -f xxl-job.txt
+```
+
+
 
 ## 免责声明🧐
 
